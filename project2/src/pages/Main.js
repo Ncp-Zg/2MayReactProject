@@ -53,7 +53,7 @@ function Main() {
       </Navbar>
         </div>
         
-        <div style={{backgroundColor:"lightcyan",display:"flex",flexWrap:"wrap"}}>
+        <div style={{backgroundColor:"lightcyan",display:"flex",flexWrap:"wrap",margin:10}}>
             {filteredData?.map(data=><Card info={data} key={data.id}/>)}
         </div>
      </div>

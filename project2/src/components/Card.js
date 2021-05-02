@@ -15,7 +15,7 @@ function Card({info}) {
     const history = useHistory()
 
     return (
-        <div style={{backgroundColor:"lightblue",flexBasis:400,flexWrap:"wrap",position:"relative",left:10,margin:5}}>
+        <div style={{backgroundColor:"lightblue",flexBasis:400,flexWrap:"wrap",margin:5}}>
             <p>{info.userId}</p>
             <p>{info.id}</p>
             <p>{info.title}</p>

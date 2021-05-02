@@ -24,7 +24,7 @@ function Comments() {
     return (
         <div style={{display:"flex",flexWrap:"wrap",margin:10}}>
            {comment?.map(com=>
-           <div style={{backgroundColor:"tomato",borderRadius:10,flexBasis:400,margin:5}} key={com.id}>
+           <div style={{backgroundColor:"tomato",borderRadius:10,flexBasis:400,margin:10}} key={com.id}>
                <p style={{fontSize:20,textAlign:"center",fontWeight:"bold"}}>{com.id}</p> 
                <p>{com.name}</p> 
                <p>{com.email}</p>
